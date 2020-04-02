@@ -68,20 +68,3 @@ exit /b
 echo 可以输入序号或类名, 或Manin的.py脚本文件
 echo h帮助 q退出 c清屏 ↑↓键历史记录
 exit /b
-
-
-example_scenes.py SquareToCircl
-example_scenes.py WarpSquare
-example_scenes.py WriteStuff
-example_scenes.py UpdatersExample
-
-manim_tutorial_P37.py Shapes
-MoreShapes
-
--p 预览
--l 低画质
--s 最后帧。
--n <number> 跳到场景的"第n个动画"。
--f 在查找器中显示文件（对于 OSX）。
-
-"D:\app\man\manim-master\manimlib\constants.py" TEX_USE_CTEX = True
