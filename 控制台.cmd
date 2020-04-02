@@ -41,7 +41,7 @@ set aa=0
 echo ---------- %~1
 for /f "delims=" %%a in ('set 序号_') do set %%a=
 for /f "delims=" %%a in ('set 类名_') do set %%a=
-for /f "eol=  delims=:" %%a in ('find "class" "%~1"') do (set ab=%%a
+for /f "eol=  delims=:" %%a in ('find "class " "%~1"') do (set ab=%%a
   set ab=!ab:(= !
   for /f "eol=- tokens=2 delims= " %%b in ("!ab!") do (
     set /a aa+=1
