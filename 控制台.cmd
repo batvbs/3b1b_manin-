@@ -39,6 +39,7 @@ title manim %~1
 set 脚本=%~1
 set aa=0
 echo ---------- %~1
+set 序号_=1&set 类名_=1
 for /f "delims=" %%a in ('set 序号_') do set %%a=
 for /f "delims=" %%a in ('set 类名_') do set %%a=
 for /f "eol=  delims=:" %%a in ('find "class " "%~1"') do (set ab=%%a
